@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plato-texts-demo", "plato-texts-demo\plato-texts-demo.csproj", "{4683A272-6E9F-45F3-8E91-3C3AC62D8948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4683A272-6E9F-45F3-8E91-3C3AC62D8948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4683A272-6E9F-45F3-8E91-3C3AC62D8948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4683A272-6E9F-45F3-8E91-3C3AC62D8948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4683A272-6E9F-45F3-8E91-3C3AC62D8948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E180D64C-8351-4151-9426-B442C3D78C8A}
+	EndGlobalSection
+EndGlobal
