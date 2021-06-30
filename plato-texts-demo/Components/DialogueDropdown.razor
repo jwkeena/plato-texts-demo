@@ -1,0 +1,63 @@
+﻿@inject HttpClient Http
+
+<select>
+    <option>Dialogue select</option>
+    @if (dialogues == null) {
+        {
+        <option>Loading...</option>
+        }
+    } else {    
+        @foreach (var dialogue in dialogues)
+        {
+            <option value="@dialogue.PerseusValue"
+                    data-start="@dialogue.StephanusStart"
+                    data-end="@dialogue.StephanusEnd"
+                    data-work="@dialogue.Name">
+                @dialogue.Name
+                </option>
+            }
+    }
+</select>
+
+@code {
+
+    DropdownViewModel currentDialogue = null;
+    private Dialogue[] dialogues;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        currentDialogue = new DropdownViewModel
+        {
+            CurrentPerseusValue = "tlg013",
+            CurrentStephanus = "103a",
+            CurrentName = "Alcibiades I",
+            CurrentNameAndRange = "Alcibiades I (103a-135e)"
+        };
+
+    }
+
+    public class DropdownViewModel
+    {
+        public string CurrentPerseusValue { get; set; }
+        public string CurrentStephanus { get; set; }
+        public string CurrentName { get; set; }
+        public string CurrentNameAndRange { get; set; }
+    }
+
+    public class Dialogue
+    {
+        public string PerseusValue { get; set; }
+        public string StephanusStart { get; set; }
+        public string StephanusEnd { get; set; }
+        public string Name { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        dialogues = await Http.GetFromJsonAsync<Dialogue[]>("data/dialogues.json");
+    }
+
+
+
+}

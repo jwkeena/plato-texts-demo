@@ -17,7 +17,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             process: 'process/browser', // Fix "process is not defined" error in browser. But still need process installed since stream-http needs it
         }),
-        new BundleAnalyzerPlugin()
+        // new BundleAnalyzerPlugin() uncomment to view size of js bundle visually
     ],
     resolve: {
         // All of these are required dependencies that I had to manually install via npm to fix browser errors.
