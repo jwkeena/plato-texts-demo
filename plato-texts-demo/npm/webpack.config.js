@@ -1,4 +1,5 @@
 ﻿const webpack = require("webpack");
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     module: {
@@ -16,6 +17,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             process: 'process/browser', // Fix "process is not defined" error in browser. But still need process installed since stream-http needs it
         }),
+        new BundleAnalyzerPlugin()
     ],
     resolve: {
         // All of these are required dependencies that I had to manually install via npm to fix browser errors.
