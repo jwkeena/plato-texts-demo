@@ -1,5 +1,4 @@
-﻿const path = require("path");
-const webpack = require("webpack");
+﻿const webpack = require("webpack");
 
 module.exports = {
     module: {
@@ -14,13 +13,13 @@ module.exports = {
         ]
     },
     plugins: [
-        // fix "process is not defined" error:
-        // (do "npm install process" before running the build)
         new webpack.ProvidePlugin({
-            process: 'process/browser',
+            process: 'process/browser', // fix "process is not defined" error in browser
         }),
     ],
     resolve: {
+        // All of these are required dependencies that I had to manually install via npm to fix browser errors.
+        // Most of these packages had to be installed because webpack 5 does not include node services by default anymore.
         alias: {
             "https": require.resolve("https-browserify"),
             "string_decoder": require.resolve("string_decoder/"),
@@ -28,7 +27,6 @@ module.exports = {
             "buffer": require.resolve("buffer"),
             "http": require.resolve("stream-http"),
             "stream": require.resolve("stream-browserify"),
-            // "process": false, // require.resolve("process/browser")
         },
     },
 }
