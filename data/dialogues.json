@@ -1,0 +1,218 @@
+[
+  {
+    "Name": "Alcibiades I",
+    "PerseusValue": "tlg013",
+    "StephanusStart": "103a",
+    "StephanusEnd": "151c"
+  },
+  {
+    "Name": "Alcibiades II",
+    "PerseusValue": "tlg014",
+    "StephanusStart": "138a",
+    "StephanusEnd": "151c"
+  },
+  {
+    "Name": "Apology",
+    "PerseusValue": "tlg002",
+    "StephanusStart": "17a",
+    "StephanusEnd": "42a"
+  },
+  {
+    "Name": "Charmides",
+    "PerseusValue": "tlg018",
+    "StephanusStart": "153a",
+    "StephanusEnd": "176d"
+  },
+  {
+    "Name": "Clitophon",
+    "PerseusValue": "tlg029",
+    "StephanusStart": "406a",
+    "StephanusEnd": "410e"
+  },
+  {
+    "Name": "Cratylus",
+    "PerseusValue": "tlg005",
+    "StephanusStart": "383a",
+    "StephanusEnd": "440e"
+  },
+  {
+    "Name": "Critias",
+    "PerseusValue": "tlg032",
+    "StephanusStart": "106a",
+    "StephanusEnd": "121c"
+  },
+  {
+    "Name": "Crito",
+    "PerseusValue": "tlg003",
+    "StephanusStart": "43a",
+    "StephanusEnd": "54e"
+  },
+  {
+    "Name": "Epinomis",
+    "PerseusValue": "tlg035",
+    "StephanusStart": "973a",
+    "StephanusEnd": "992e"
+  },
+  {
+    "Name": "Euthydemus",
+    "PerseusValue": "tlg021",
+    "StephanusStart": "271a",
+    "StephanusEnd": "307c"
+  },
+  {
+    "Name": "Euthyphro",
+    "PerseusValue": "tlg001",
+    "StephanusStart": "2a",
+    "StephanusEnd": "16a"
+  },
+  {
+    "Name": "Gorgias",
+    "PerseusValue": "tlg023",
+    "StephanusStart": "447a",
+    "StephanusEnd": "527e"
+  },
+  {
+    "Name": "Hipparchus",
+    "PerseusValue": "tlg015",
+    "StephanusStart": "225a",
+    "StephanusEnd": "232c"
+  },
+  {
+    "Name": "Hippias Major",
+    "PerseusValue": "tlg025",
+    "StephanusStart": "281a",
+    "StephanusEnd": "304e"
+  },
+  {
+    "Name": "Hippias Minor",
+    "PerseusValue": "tlg026",
+    "StephanusStart": "363a",
+    "StephanusEnd": "376a"
+  },
+  {
+    "Name": "Ion",
+    "PerseusValue": "tlg027",
+    "StephanusStart": "530a",
+    "StephanusEnd": "542b"
+  },
+  {
+    "Name": "Laches",
+    "PerseusValue": "tlg019",
+    "StephanusStart": "178a",
+    "StephanusEnd": "201c"
+  },
+  {
+    "Name": "Laws",
+    "PerseusValue": "tlg034",
+    "StephanusStart": "1.624a",
+    "StephanusEnd": "1.650b"
+  },
+  {
+    "Name": "Lysis",
+    "PerseusValue": "tlg020",
+    "StephanusStart": "203a",
+    "StephanusEnd": "223b"
+  },
+  {
+    "Name": "Menexenus",
+    "PerseusValue": "tlg0278",
+    "StephanusStart": "234a",
+    "StephanusEnd": "249e"
+  },
+  {
+    "Name": "Meno",
+    "PerseusValue": "tlg024",
+    "StephanusStart": "70a",
+    "StephanusEnd": "100b"
+  },
+  {
+    "Name": "Minos",
+    "PerseusValue": "tlg033",
+    "StephanusStart": "313a",
+    "StephanusEnd": "321d"
+  },
+  {
+    "Name": "Parmenides",
+    "PerseusValue": "tlg009",
+    "StephanusStart": "126a",
+    "StephanusEnd": "166c"
+  },
+  {
+    "Name": "Phaedo",
+    "PerseusValue": "tlg004",
+    "StephanusStart": "57a",
+    "StephanusEnd": "118a"
+  },
+  {
+    "Name": "Phaedrus",
+    "PerseusValue": "tlg012",
+    "StephanusStart": "227a",
+    "StephanusEnd": "279c"
+  },
+  {
+    "Name": "Philebus",
+    "PerseusValue": "tlg012",
+    "StephanusStart": "11a",
+    "StephanusEnd": "67b"
+  },
+  {
+    "Name": "Protagoras",
+    "PerseusValue": "tlg022",
+    "StephanusStart": "309a",
+    "StephanusEnd": "362a"
+  },
+  {
+    "Name": "Republic",
+    "PerseusValue": "tlg030",
+    "StephanusStart": "327a",
+    "StephanusEnd": "621d"
+  },
+  {
+    "Name": "Rival Lovers",
+    "PerseusValue": "tlg016",
+    "StephanusStart": "132a",
+    "StephanusEnd": "139a"
+  },
+  {
+    "Name": "Seventh Letter",
+    "PerseusValue": "tlg036",
+    "StephanusStart": "7.323d",
+    "StephanusEnd": "7.352a"
+  },
+  {
+    "Name": "Sophist",
+    "PerseusValue": "tlg007",
+    "StephanusStart": "216a",
+    "StephanusEnd": "268d"
+  },
+  {
+    "Name": "Statesman",
+    "PerseusValue": "tlg008",
+    "StephanusStart": "257a",
+    "StephanusEnd": "311c"
+  },
+  {
+    "Name": "Symposium",
+    "PerseusValue": "tlg011",
+    "StephanusStart": "172a",
+    "StephanusEnd": "223d"
+  },
+  {
+    "Name": "Theaetetus",
+    "PerseusValue": "tlg006",
+    "StephanusStart": "142a",
+    "StephanusEnd": "210d"
+  },
+  {
+    "Name": "Theaages",
+    "PerseusValue": "tlg017",
+    "StephanusStart": "121a",
+    "StephanusEnd": "131a"
+  },
+  {
+    "Name": "Timaeus",
+    "PerseusValue": "tlg031",
+    "StephanusStart": "17a",
+    "StephanusEnd": "92c"
+  }
+]
