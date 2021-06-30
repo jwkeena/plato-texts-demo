@@ -14,7 +14,7 @@ module.exports = {
     },
     plugins: [
         new webpack.ProvidePlugin({
-            process: 'process/browser', // fix "process is not defined" error in browser
+            process: 'process/browser', // Fix "process is not defined" error in browser. But still need process installed since stream-http needs it
         }),
     ],
     resolve: {
